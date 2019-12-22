@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Font awesome-->
+    <script
+      src="https://kit.fontawesome.com/e23ae5f5d0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="topNav">
+      <div class="content">
+        <a href="../index.html#myWork" class="left">
+          <i class="fas fa-arrow-left"></i> Back
+        </a>
+        <div id="topNav_title" class="title">Evolving Mobile Trading</div>
+        <div class="right"></div>
+      </div>
+    </nav>
+    <div class="portfolioLayout">
+      <div class="portfolio_nav">
+        <div class="navContainer">
+          <h2>Contents</h2>
+          <ol class="verticalNav">
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#theBrief">The Brief</a></li>
+            <li><a href="#benchmark">Benchmark and Iterate</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li>
+              <a href="#prototyping">Prototyping and Testing</a>
+            </li>
+            <li>
+              <a href="#results">Results</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="portfolio_main">
+        <section class="header">
+          <div class="content">
+            <p class="subhead">Portfolio</p>
+            <h1 id="mainContent_title">Evolving Mobile Trading</h1>
+            <p class="leading">
+              IG is an industry leader in retail trading and I was asked to
+              develop a design vision and strategy for the evolution of their
+              mobile trading platforms.
+            </p>
+            <figure
+              style="margin: 0; width: 100%; max-width: 1024px; padding: 3em 0;"
+            >
+              <video
+                src="./ig/ig_portfolioPreviewVideo.mp4"
+                width="100%"
+                height="auto"
+                controls
+                poster="./ig/ig_portfolioPreviewVideo_poster.png"
+              ></video>
+              <figcaption style="text-align: center;">
+                A video promo I made, showcasing some of the resulting design
+                concepts for iOS to stakeholders around the company.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="noPad">
+          <div class="content">
+            <h2 id="highlights">Highlights</h2>
+            <p>
+              I led a research and design process, supported by a talented team
+              of UI, dev and QA colleagues in London and Krakow. Our efforts led
+              to the discovery of valuable user insights, numerous user
+              experience improvements, and a validated long-term design
+              direction for the future development of all IG's mobile trading
+              platforms.
+            </p>
+            <ol>
+              <li>
+                <strong>Existing value was unlocked</strong>, by revamping the
+                IA and navigation to really focus on the needs of traders while
+                completing key tasks. This IA tested so well with clients it has
+                become the template for all IG's trading platforms, and laid the
+                foundation for a more cohesive experience upon which to build
+                future functionality going forward.
+              </li>
+              <li>
+                <strong
+                  >Key tasks were made up to 2 times more efficient</strong
+                >
+                thanks to the introduction of new interaction patterns and the
+                addition of more supportive, less ambiguous information at key
+                decision points.
+              </li>
+              <li>
+                <strong>A new approach to discovery was validated.</strong>
+                'Dumb lists' were replaced with smarter, context rich
+                collections, organised in a way that traders found useful and
+                engaging. This has resulted in a whole new product category,
+                aimed at more proactively helping traders research and find
+                opportunities.
+              </li>
+              <li>
+                <strong
+                  >The future cost of mobile design was drastically
+                  decreased</strong
+                >
+                thanks to a cross-platform approach from the very beginning
+                that's resulted in UX and UI that scales across platforms while
+                respecting mobile OS idiosyncrasies.
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="theBrief">The Brief</h2>
+            <p>
+              The eagerly awaited 2015 annual Investment Trends Report had
+              arrived. For the first time ever, IG's flagship app had slipped
+              from the top spot... to third. IG had invested heavily in their
+              apps the previous two years, making them by far the most
+              feature-packed on the market, but this 'more is more' approach
+              obviously wasn't resonating with clients.
+            </p>
+            <p>
+              With competition increasing and mobile trading becoming ever more
+              important to clients, a serious strategic rethink was needed.
+            </p>
+
+            <h3>Objectives</h3>
+            <ol>
+              <li>
+                <strong>Identify</strong> why IG's apps are losing ground to
+                competitors and better understand what traders are looking for
+                in a mobile trading experience.
+              </li>
+              <li>
+                <strong>Propose</strong> a validated set of forward-looking
+                designs and prototypes that will inform how IG's trading apps
+                should evolve over the next 18-24 months.
+              </li>
+              <li>
+                <strong>Align</strong> the mobile apps with the visual identity
+                forged by the recently released desktop trading app, to aid a
+                consistent multi-platform trading experience.
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="benchmark">Benchmark and Iterate</h2>
+            <p>
+              The first task was to begin benchmarking the current design and
+              user experience, so we'd have something to measure proposed
+              improvements against. To do this, I first carried out a thorough
+              heuristic evaluation of the apps. The framework I hung my work on
+              was David Travis'
+              <a
+                href="https://www.userfocus.co.uk/articles/redroutes.html"
+                class="linkText"
+                target="_blank"
+                >Red Route model</a
+              >
+              , which defines a key task as one that's
+              <strong
+                >completed by all users, is high frequency, and is critical for
+                both users and the business</strong
+              >. It's straight-forward, and I find it great for getting
+              user-centric, and naturally more business-centric stakeholders
+              positively engaged with the process. Which is half the battle in
+              design.
+            </p>
+            <br />
+            <p>
+              The Red Route tasks we identified, and confirmed with research
+              were:
+            </p>
+            <ol>
+              <li><strong>Find a trading opportunity</strong></li>
+              <li><strong>Create or edit an order</strong></li>
+              <li><strong>Monitor positions</strong></li>
+            </ol>
+            <br />
+            <p>
+              Having completed the evaluation, a few concerning conclusions
+              stuck out.
+            </p>
+            <p>
+              Firstly, all three tasks were hindered by an inefficient feature,
+              rather than task, oriented IA. This meant valuable functionality
+              and features that aided a common task were often inaccessible from
+              one another.
+            </p>
+            <p>
+              Secondly, creating an order, perhaps the most critical task in the
+              app was far from optimised, or supportive of the task. Accessing
+              the ticket often required several stages of navigation. Completing
+              the ticket was not especially intuitive, contained ambiguous data,
+              required more manual steps than necessary, and did not support
+              differing client mental models and trading strategies.
+            </p>
+            <p>
+              Finally, iOS and Android looked and felt like they were built by
+              different companies. Navigation, task-flows, UI and even labels
+              were inconsistent. This, meant scaling optimal solutions for both
+              would be impossible in the current state.
+            </p>
+            <p>
+              This last point I began tackling straight off the bat with
+              developers by creating an OS specific style-guide and component
+              library for both platforms. Though this didn't address the major
+              problems and inconsistencies, as that would require more
+              fundamental changes and a more robust research approach, it did
+              improve UI consistency and overall aesthetics of the apps. This
+              gave us a better foundation, on which to gradually make those more
+              fundamental changes.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <figure style="width: 100%; text-align: center">
+              <img
+                style="width: 100%; max-width: 450px; "
+                src="./ig/ig_iOSstyles.png"
+                alt="An extract from the iOS mini pattern library"
+              />
+              <figcaption style="text-align: center;">
+                To begin addressing the numerous UI inconsistencies I created a
+                basic pattern library with developers.
+              </figcaption>
+            </figure>
+            <figure style="width: 100%; padding: 3em 0; text-align: center">
+              <img
+                style="width: 100%;"
+                src="./ig/ig_iOSAndroidstyles_beforeAfter.png"
+                alt="An image showing the iOS deal ticket before and after the pattern library work."
+              />
+              <figcaption style="text-align: center;">
+                The iOS and Android order tickets, before and after the pattern
+                library work. Greater consistency between the OSs, improved
+                affordance on buttons and fields and fewer unnecessary custom
+                components.
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="research">Research</h2>
+            <h3>Stakeholder Interviews</h3>
+            <p>
+              With the initial evaluation complete, I began talking with
+              stakeholders around the business. My main aim was to understand
+              the perspectives and objectives different areas of the business
+              had for the apps, and learn about any current concerns, future
+              hopes or existing ideas that'd influence the design going forward.
+              To do this, I conducted semi-structured interviews with members of
+              the Trading Services team (front-line client support) and various
+              heads of departments.
+            </p>
+            <p>
+              It became clear that some of my concerns were shared by trading
+              services, but those concerns were played down by major
+              stakeholders. Their focus was on building new things. Even
+              acknowledging existing problems was problematic in fact -
+              particularly with the order ticket. They didn't have any problem
+              themselves after all. Clearly some work had do be done.
+            </p>
+
+            <h3>Qualitative Research</h3>
+            <p>
+              Feeling well oriented, it was time to begin tackling the more
+              robust research tasks that would help me form hypotheses, which
+              would form the foundation of the design process later on.
+            </p>
+
+            <p>The main questions I wanted to answer were:</p>
+            <ul>
+              <li>
+                <strong>How do traders find trading opportunities?</strong> What
+                sources do they use, which data points are most important and
+                which tools do they love?
+              </li>
+              <li>
+                <strong>How do traders go about creating orders?</strong> What
+                factors are they weighing up, what informs trade sizes, how are
+                they managing risk and what difficulties do they have
+                translating strategy and intention to input?
+              </li>
+              <li>
+                <strong>How do traders monitor their accounts</strong> when
+                they've "skin in the game"? How frequently do they check, what
+                tools do they use and what frustrations have they faced in the
+                pursuit of maximising profits and minimising losses?
+              </li>
+            </ul>
+
+            <p>
+              To answer these questions, 3 main methods were used.
+            </p>
+
+            <ol>
+              <li>
+                <strong>User interviews</strong>, in which I spent up to 90
+                minutes with clients who frequently trade on mobile. This was a
+                mixture of semi-structred interviews and having the clients
+                demonstrate how they complete tasks currently.
+              </li>
+              <li>
+                <strong>Watching usability testing</strong> of the recently
+                launched desktop app. Though this didn't highlight mobile
+                specific problems, it was very valuable in understanding how
+                traders thought, where their priorities lay and their
+                behaviours.
+              </li>
+              <li>
+                <strong>Focus groups</strong>, as suggested by the research
+                team. Despite the drawbacks of teasing insights from
+                group-settings, focus groups aren't to be entirely dismissed if
+                not used in isolation. They're useful primarily for identifying
+                avenues of further research and a convenient opportunity to
+                expose a team to clients in real time. So I helped the research
+                team prepare this.
+              </li>
+            </ol>
+
+            <h3>Quantitative Research</h3>
+            <p>
+              In parallel, I spent a lot of time getting data from B.I.
+              (Business Intelligence, a data analysis tool), Trading Services
+              support emails and whatever analytics the mobile teams could give
+              me. This uncovered some nuggets of info that informed new design
+              directions, or entirely new avenues.
+            </p>
+            <p>
+              One nugget was the highly frequent, but very short session times
+              of 1-10 seconds. We hypothesised that traders were checking
+              position and account balance information, because no navigation
+              took place. This prompted us to investigate ways of surfacing this
+              information outside of the apps, so traders could glean this with
+              faster and with much less effort.
+            </p>
+            <p>
+              Another nugget was the discrepancy between the number of markets a
+              trader might have in a watchlist, compared to the number they
+              would trade. Currently, markets in watchlists and positions had
+              exactly the same size and data density. Clearly we could look into
+              making more optimised views for positions, considering the fact
+              significantly fewer would ever be on the screen at the same time.
+            </p>
+            <figure style="width: 100%; padding: 3em 0; text-align: center">
+              <img
+                style="width: 100%; "
+                src="./ig/ig_researchStats.jpg"
+                alt="Statistice showing information about mobile trading versus desktop, session length and number of markets traded by each client."
+              />
+              <figcaption style="text-align: center;">
+                A few valuable insights that fuelled hypotheses and challenged
+                current assumptions.
+              </figcaption>
+            </figure>
+            <p>
+              Once we'd sorted, categorised and analysed the data, we had a
+              wealth of insights and research deliverables to work with. The
+              outcomes included a set of trader personas/archetypes detailing
+              characteristics to design for, and numerous hypothoses to begin
+              exploring.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="workshops">Workshops, London and Krakow</h2>
+            <p>
+              If we are not only to "get the right design" but also "get the
+              design right" when implemented, building shared understanding of
+              the project's goals, user insights, and plan of action is
+              essential.
+            </p>
+            <p>
+              I planned and facilitated workshops with the mobile development
+              teams in both London (iOS) and Krakow (Android). I and the
+              researchers shared all insights and conclusions from the research
+              process, which generated great, in-depth discussions. The product
+              team members could begin taking an informed and active role in the
+              design process from then on. We then discussed the Red Routes and
+              how we would collaborate on the next steps.
+            </p>
+            <p class="asideNote problem">
+              <strong>Insight.</strong> Involving the rest of the mobile product
+              teams only once much of the research had already been conducted
+              isn't my preferred way of working. Far from it, but despite the
+              PO's understanding for whole team involvement, the prevailing
+              project-management culture was against us. You have to pick your
+              battles, and this was a compromise.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="prototyping">Prototyping and Testing</h2>
+            <p>
+              With a good amount of research, and everyone on the same page, it
+              was time to roll up our sleeves. The aim was to explore and
+              validate the hypotheses formed in step 3 for each of the Red
+              Routes. We wanted to produce a good-quality, thorough prototype
+              for Premium client testing, which would help uncover new insights
+              and inform iterative improvements... or total rethinks.
+            </p>
+
+            <p>
+              For each of the red routes, I and the mobile lead UI designer
+              conducted semi-structured design sprints. Though we unfortunately
+              weren't able to involve the rest of the mobile product teams' as
+              much as we would have liked 'officially' (due to other running
+              project commitments) we did involve them at every opportunity. We
+              even went so far as to fix time outside of work hours to discuss
+              design with the wider team. This is how imporant I believe
+              developer and QA involvement in design is, even if that's not
+              supported by official processes. The fact my team members agreed
+              is testament to their commitment, and further proof there's an
+              intrinsic motivation to collaborate at this level.
+            </p>
+
+            <p>
+              One major obstacle we had in this process was the same one shared
+              by anyone designing in niche markets - access to clients for
+              usability testing. This reality meant usability testing with real
+              target clients was saved until we had explored all 3 sprints.
+            </p>
+
+            <p>
+              To help mitigate the issues that arise when you don't have the
+              ability to frequently check assumptions, we turned to colleagues
+              from around the business, particularly Trading Services team
+              members. These colleagues are often active traders themselves, and
+              they have first hand experience with clients day in day out.
+              Though they'd have different biases, or be blind to certain
+              IG-centric things such as terminology that could cause problems,
+              their experience and intuition helped a lot. It's not perfect, but
+              this definitely helped improve the design.
+            </p>
+
+            <h3>The steps for redesigning and prototyping each task</h3>
+
+            <p>
+              <strong>1. Map the problem.</strong> We mapped out the task, to
+              clearly show the beginning and end points for each, and any
+              interstitial steps we knew needed to be included. Often there were
+              multiple possible start and end points, depending on the type of
+              trader. For example, the way chartists identify opportunities and
+              place trades is quite different from the flow a fundamental trader
+              would follow.
+            </p>
+            <p>
+              <strong>2. Gather relevant data, insights and hypotheses.</strong>
+              We walked through each step of the problem and attached all the
+              insights we had for that step. This might be data insights,
+              usability test observations, or trader characteristics - like
+              mental models certain types of traders were assessing tasks with.
+              This would help us go over the designs, as we reviewed each
+              iteration's ability to solve or improve problems. More
+              importantly, it would help others' see the inputs we had, and with
+              their perspectives, help us improve, or cover our blind-spots.
+            </p>
+            <p>
+              <strong>3. Sketch and review.</strong> We sketched out ideas and I
+              began drafting them up into wire-flows. These are low fidelity,
+              easily changeable depictions of each screen involved in a task,
+              showing interactions within each, and between each screen. I would
+              add notes to the screens too, pointing out problems I was facing,
+              or justifications for any design decisions I had made. This work
+              was frequently reviewed by design colleagues during design crits,
+              and by trading services.
+            </p>
+
+            <figure style="width: 100%; padding: 2em 0; text-align: center">
+              <img
+                style="width: 100%; "
+                src="./ig/ig_create_a_market_order.png"
+                alt="An example wireflow showing the create a market order flow"
+              />
+            </figure>
+            <p>
+              <strong>4. Prototyping.</strong> Together with the UI designer we
+              took the wire-flows and went slightly higher fidelity in Framer.
+              This allowed us to sense check the data and layouts in the
+              wireframes, and ensure each responded well to different device
+              sizes - including tablet. If these basic things break down, we
+              catch them early. Once we were happy, we plumbed in some real data
+              from IG's API which really tested the layout, as we got real
+              market names and prices in place.
+            </p>
+
+            <figure
+              style="position: relative; width: 100%; padding: 2em 0; text-align: center"
+            >
+              <img
+                style="width: 100%; "
+                src="./ig/ig_prototypeFramer.jpg"
+                alt="An image showing the high fidelity prototype built in Framer"
+              />
+              <img
+                class="ig_prototype_gif"
+                src="./ig/ig_prototypeDemo.gif"
+                alt="An animated GIF showing parts of the prototype in action"
+              />
+            </figure>
+            <p>
+              <strong>5. Testing.</strong> Throughout the sketch and prototyping
+              process, I identified the hypotheses that posed the most risk to
+              the overall design - which included new navigation patterns that
+              if failed, would undermine many other experiments. For this
+              reason, we ensured we got concrete validations of these first. I
+              worked closely with our internal researcher to script, record and
+              evaluate each of the 15 sessions we had scheduled face-to-face
+              with existing premium clients, and prospects.
+            </p>
+
+            <p>
+              Obviously the results from just 15 clients isn't the most robust
+              of findings to pin major redesign decision on. So, once we were
+              confident we had validated certain design approaches as best we
+              could, I found a low risk approach to testing them in production
+              with a larger number of traders. I introduced them to our mobile
+              web apps. These have a much smaller user base, so I used them as a
+              test bed, supported by the design teams and POs of our web apps.
+              Being web-based, it meant we could release changes to gradually
+              increasing numbers, and roll back if we spotted problems, far
+              quicker. We tracked user behaviour and feedback, and found the
+              designs held up.
+            </p>
+
+            <br />
+            <br />
+
+            <img
+              style="width: 100%;"
+              src="./ig/EMT_userTesting.jpg"
+              alt="An image showing the prototype being tested with a premium client"
+            />
+
+            <p class="asideNote learning">
+              That said, problems did become apparent. In some areas we'd pushed
+              the design too far, to the point some steps within a task became
+              unfamiliar. Fortunately, the potential adjustments were numerous
+              and we were confident it was just a case of iterating, rather than
+              concern for the entire direction.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="content">
+            <h2 id="results">Results</h2>
+            <p>
+              It was a huge amount of work, but extremely rewarding. Some of the
+              bigger bets really paid off, risky patterns proved far less
+              worrisome that worst case scenarios imagined, and clients reacted
+              very positively to ideas in the prototype - despite it being in a
+              very early phase.
+            </p>
+            <p>
+              We ended with incredibly valuable insights which validated some
+              hypotheses, and totally invalidated others. The side effect of
+              this approach was also a more tight-knit, more informed and
+              empathetic mobile product team enthused about the upcoming work.
+            </p>
+            <p>
+              Over the coming weeks we iterated on these ideas, and folded
+              testing into other research initiatives. The results of which were
+              introduced towards the beginning of this case study.
+            </p>
+            <br />
+            <br />
+            <div class="flexRow">
+              <img
+                src="./ig/ig_iOS_watchlist_after.png"
+                alt="iOS watchlist UI redesign"
+              />
+              <img
+                src="./ig/ig_iOS_marketDetail_after.png"
+                alt="iOS watchlist UI redesign"
+              />
+              <img
+                src="./ig/ig_iOS_orderTicket_after.png"
+                alt="iOS watchlist UI redesign"
+              />
+              <img
+                src="./ig/ig_iOS_discoverConcept.png"
+                alt="iOS watchlist UI redesign"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

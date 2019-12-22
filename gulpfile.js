@@ -41,3 +41,5 @@ function build() {
 exports.style = style;
 // "gulp dev" during development
 exports.dev = dev;
+// "gulp build" to build
+exports.build = build;

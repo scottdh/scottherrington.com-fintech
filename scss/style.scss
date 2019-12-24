@@ -528,12 +528,17 @@ figure {
   grid-column-gap: 0.5rem;
   grid-row-gap: 0.5rem;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
-  img {
+  div {
     width: 100%;
-    min-height: 100%;
-    object-fit: cover;
+    height: 100%;
+
+    img {
+      width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+    }
   }
+
   @media (min-width: 1024px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
